@@ -39,7 +39,7 @@ const Navbar_admin = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link to="/" className="text-white text-2xl font-bold">
-          weather station
+          Weather App
           </Link>
           {/* Navigation Links */}
           {isAuthenticated ? (
